@@ -97,3 +97,16 @@ https://samojeyinka.vercel.app/
 ![carrent4](https://user-images.githubusercontent.com/131479901/235547865-1ece087c-dfcd-4345-bb4f-2923bb642445.png)
 
 ![carrent5](https://user-images.githubusercontent.com/131479901/235547902-1c1cc026-8f97-4ac5-922c-d26560945c74.png)
+
+![Screenshot_20230502-001143](https://user-images.githubusercontent.com/131479901/235548175-be829324-2381-4584-92f0-9d64f82e5287.png)
+
+
+![Screenshot_20230502-001156](https://user-images.githubusercontent.com/131479901/235548202-f678dce5-0153-412b-b6bb-346e42f42814.png)
+
+
+![Screenshot_20230502-001209](https://user-images.githubusercontent.com/131479901/235548226-283dcb7d-ac11-49dc-b556-57007e006b6f.png)
+
+![Screenshot_20230502-001221](https://user-images.githubusercontent.com/131479901/235548242-7e9af041-730d-40a1-bd7c-ed81505df02f.png)
+
+![Screenshot_20230502-001232](https://user-images.githubusercontent.com/131479901/235548267-c4520960-b9cc-4dde-a470-74400c57b7c4.png)
+
