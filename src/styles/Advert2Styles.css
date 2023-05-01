@@ -1,0 +1,67 @@
+.advert2-sec{
+   padding-top: 9rem;
+    width: 100%;
+    
+    
+ 
+}
+
+.ads-box{
+    position: relative;
+    height:27vh;
+}
+
+
+.ads-box::after{
+    content: '';
+    background-image: url(../assets//Advert-images/adimg2.png);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: .83;
+    z-index: -1;
+
+}
+
+
+.ads-det{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    height: 100%;
+    
+}
+ 
+
+.ads-det h2{
+    color: var(--white-text-color);
+    font-size: 2rem;
+}
+
+.wapp{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    
+}
+
+.wapp span{
+    color:var(--primary-color);
+}
+
+@media screen and (max-width:900px){
+    
+.ads-det{
+   flex-direction: column;
+   gap: 1rem;  
+}
+ 
+
+.ads-det h2{
+    font-size: 1.5rem;
+}
+}

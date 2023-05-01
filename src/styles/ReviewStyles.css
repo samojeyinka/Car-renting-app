@@ -1,0 +1,127 @@
+.review-section{
+    padding-top:10rem ;
+    width: 100%;
+    background: var(--secondary-bg);
+}
+
+.rev-container{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 5rem;
+}
+
+.rev-intro h1{
+    color: var(--big-text-color);
+    font-size: var(--h2-size);
+}
+
+.rev-intro p{
+    text-align: center;
+    max-width: 50%;
+    margin: auto;
+}
+
+.rev-parent{
+    overflow-x: hidden;
+    cursor: grab;
+    
+}
+
+.rev-boxes{
+    padding-top: 4rem;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    gap: 2rem;
+    cursor: grab;
+    padding-bottom: 1rem;
+    cursor: grab;
+   
+}
+
+
+
+
+.rev-box{
+    min-width: 48%;
+    background:#fff;
+    padding: 3rem;
+    cursor: grab;
+
+}
+
+.top{
+    width: 100%;
+    padding-bottom: 1rem;
+   
+}
+
+.top p{
+    font-size: var(--h4-size);
+    color: var(--big-text-color);
+   
+} 
+
+.rev-boxes .bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rev-pro{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-pro{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    
+}
+
+.left-pro  .pro-name{
+    color: var(--big-text-color);
+    font-weight: 800;
+    
+}
+
+.left-pro h3{
+    text-align: left;
+}
+
+
+.rev-pro img{
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+}
+
+
+@media screen and (max-width:800px){
+    
+.review-section p{
+    max-width: 100%;
+}
+
+h1{
+    font-size: var(--h3-size);
+}
+
+.rev-boxes{
+    gap: .8rem; 
+   
+}
+.rev-box{
+    min-width:90%;
+    padding: 1rem;
+    
+}
+
+.top p{
+    font-size: var(--special-size);
+    
+   
+} 
+}

@@ -1,0 +1,84 @@
+.advert-section{
+    padding-top: 10rem;
+    width: 100%;
+    margin: auto;
+    cursor: pointer;
+}
+
+
+.advert-banner{
+    width: 100%;
+    background: #2d2d2d;
+    text-align: center;
+    padding: 3rem;
+    display: flex;
+    justify-content: space-around;
+    
+   
+ 
+}
+
+.advert-banner h1{
+    font-size: var(--h2-size);
+    color: var(--white-text-color);
+   
+  
+}
+
+
+.advert-banner p{
+    font-size: 1.6rem;
+    color: var(--white-text-color);
+  
+}
+
+.advert-banner p span{
+    color: var(--primary-color);
+}
+
+
+.adImage{
+   
+    top: 2rem;
+    width: 20rem;
+  
+}
+
+.advert-banner.none{
+    display: none;
+}
+
+
+
+@media screen and (max-width:900px){
+    .advert-banner{
+       flex-direction: column;
+       position: relative;
+     
+    }
+
+    
+.advert-banner h1{
+    font-size: var(--h3-size);
+    
+}
+
+.advert-banner p{
+    font-size: 1.3rem;
+    text-align: center;
+    
+}
+
+.adImage{
+   
+    width: 95%;
+    margin: auto;
+  
+}
+.delAd{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+}

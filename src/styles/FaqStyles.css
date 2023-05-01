@@ -1,0 +1,127 @@
+.faq-section{
+    padding-top: 8rem;
+    width: 100%;
+    background: #fff;
+    padding-bottom: 10rem;
+    background-image: url(../assets/FaqImages/sideBg.png);
+    background-position: 0 70%;
+    background-size: 23rem;
+    background-repeat: no-repeat;
+    
+}
+
+
+.faq-container{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+
+}
+
+
+.faq-container .faq-intro  h1{
+    font-size: var(--h2-size);
+}
+
+.faq-container .faq-intro{
+    padding-bottom: 2rem;
+}
+
+
+.faq-container .faq-intro p{
+    text-align: center;
+    max-width: 50%;
+    margin: auto;
+} 
+
+.faq-boxes{
+    background:#fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+    width: 60%;
+    margin: auto;
+}
+
+.faq_question{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:#fff;
+    width: 100%;
+    padding: 0;
+    border-bottom: 1px solid var(--border-color);
+    cursor: pointer;
+    text-align: left;
+    padding: 0 2rem 0 2rem;
+}
+
+.faq_question p{
+    color: var(--big-text-color);
+    font-size: 1.3rem;
+    text-align: left;
+}
+
+
+.faq_answer{
+    width: 100%;
+    max-height: 0px;
+    overflow: hidden;
+    transition: .5s;
+    cursor: pointer;
+    
+}
+
+.faq_answer p{
+    padding: 2rem;
+}
+
+
+.active-answer{
+    max-height: 20rem;
+    
+}
+
+
+.active-question{
+    background: var(--primary-color);
+    box-shadow: var(--primary-shadow);
+    color: var(--white-text-color);
+    transition: .4s;
+}
+
+
+@media screen and (max-width:800px){
+
+    .faq-container .faq-intro  h1{
+        font-size: var(--h3-size);
+    }
+
+    .faq-section{
+        background-position: 0 80%;
+        background-size: 16rem;
+    }
+
+    .faq-container .faq-intro p{
+        max-width: 100%;   
+        
+    } 
+
+    .faq-boxes{
+     
+        width: 100%;
+        
+    }
+
+    .faq_question p{
+        font-size: 1rem; 
+    }
+    
+    .faq_question{
+        padding: 0 1rem 0 1rem;
+    }
+
+    .faq_answer p{
+        padding: 1rem;
+    }
+    
+
+}

@@ -1,0 +1,135 @@
+.contact-sec{
+    padding-top:8rem ;
+    width: 100%;
+}
+
+
+.contact-bg{
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+
+.contact-bg::after{
+    content: '';
+    background-image: url(../assets//ContactImages/bgcontact.png);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+}
+
+.contact-con{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-con .left-con{
+    width: 40%;
+
+}
+
+.contact-con .left-con h2{
+    font-size: var(--h3-size);
+}
+
+.contact-con .left-con p{
+    max-width: 90%;
+    
+}
+
+.contact-con .left-con .span-flex{
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+}
+
+.contact-con .left-con .span-flex p{
+    color: var(--big-text-color);
+    font-weight: 400;
+    font-size: var(--h5-size);
+}
+
+.contact-con .right-con{
+    width: 50%;
+}
+
+.contact-con form label{
+        font-weight: 600;
+        
+}
+
+.contact-con form label span{
+    color: var(--primary-color);
+}
+
+.contact-con .right-con input,textarea{
+    width: 100%;
+}
+
+
+.contact-con .right-con input{
+    margin-top: .8rem;
+    padding: .9rem;
+    outline: none;
+    background: var(--initial-bg);
+}
+
+.contact-con .right-con textarea{
+    height: 10rem;
+    background: var(--initial-bg);
+    outline: none;
+    padding: 1rem;
+}
+
+
+.cont-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .6rem;
+    width: 100%;
+    background: var(--primary-color);
+    padding: .8rem;
+    color: #fff;
+    font-size: var(--h5-size);
+    font-weight: 600;
+}
+
+
+@media screen and (max-width:900px){
+    .contact-con{
+        flex-direction: column;
+        
+    }
+    .contact-con .left-con,.contact-con .right-con{
+        width: 100%;
+       
+    }
+
+    .contact-con .right-con{
+        margin-top: 2rem;
+
+    }
+
+    .contact-con .left-con h2{
+        text-align: center;
+    }
+    
+    .contact-con .left-con p{
+        max-width: 100%;
+        text-align: center;
+        
+    }
+
+    .contact-con .left-con .span-flex{
+      justify-content: center;
+      
+    }
+}

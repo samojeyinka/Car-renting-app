@@ -1,0 +1,62 @@
+.heroimage-sec{
+    width: 100%;
+    height: 40vh;
+    
+    
+}
+
+
+
+.heroimage-con::after{
+    content: "";
+    background-image: url(../assets//HeroImages//HeroTopImg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    opacity: .1;
+   
+    
+}
+
+.breadcrumb{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+   padding-top: 7%;
+}
+
+
+.breadcrumb h2{
+    font-size: var(--h3-size);
+}
+
+.breadcrumb h4{
+    font-weight: 400;
+    font-size: var(--p-size);
+    color: var(--big-text-color);
+}
+
+
+.breadcrumb h4:hover{
+    color: var(--primary-color);
+}
+
+
+
+@media screen and (max-width:800px){
+    
+.breadcrumb{
+    position: relative;
+    transform: translate(5%,5%);
+    
+    
+  
+}
+}

@@ -1,0 +1,148 @@
+.header{
+    padding-top: .8rem;
+    width: 100%;
+    max-width: 133rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 100px;
+    z-index: 100;
+
+}
+
+
+.logo{
+    width: 9rem;
+    
+}
+
+
+.Nav-menu{
+    display: flex;
+    gap: 2rem;
+}
+
+.Nav-menu a{
+        font-weight: 500;
+        font-size: 1.05rem;
+        color: var(--bg-text-color);
+        transition: .2s;
+}
+
+
+.Nav-menu a:hover{
+    color: var(--primary-color);
+}
+
+.nav-btns{
+    display: flex;
+    gap: .7rem;
+}
+
+.nav-btns .nav-btn{
+    padding: .8rem 2rem;
+    font-weight: 500;
+    font-size: 1.05rem;
+    
+}
+
+
+.nav-btns .nav-btn .sign-in{
+    color: var(--bg-text-color);
+    
+}
+
+.nav-btns .nav-btn.sign-in:hover{
+    color: var(--primary-color);
+    transition: .2s;
+}
+
+
+
+.nav-btns .nav-btn.register{
+    color:var(--white-text-color);
+    background: var(--primary-color);
+    box-shadow: var(--primary-shadow);
+    border-radius: var(--btn-radius);
+    transition: 2s;
+
+}
+
+
+.nav-btns .nav-btn.register:hover{
+    background: var(--hover-color);
+    box-shadow: var(--hover-shadow);
+
+}
+
+.openNav{
+    display: none;
+}
+
+
+ul .nav-btns{
+    display: none;
+}
+
+@media screen and (max-width:1115px){
+
+    .logo{
+        width: 8rem;
+        
+    }
+
+    .Nav-menu{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position:absolute;
+        top: 100px;
+        left:-100%;
+        background:white;
+        z-index: 100;
+        height: calc(100vh - 100px);
+        width: 100%;
+        transition: .5s;
+        
+    }
+
+    .Nav-menu a{
+        
+        font-size: 1.5rem;
+        font-weight: 400;
+        
+}
+
+
+.Nav-menu.active{
+    left:0;
+}
+.openNav{
+    display: initial;
+}
+
+ul .nav-btns{
+    display: none;
+}
+}
+
+
+@media screen and (max-width:800px){
+
+    .logo{
+        width: 7rem;
+    }
+        
+    
+
+    .nav-btns{
+        display: none;
+    }
+
+    ul .nav-btns{
+        display: initial;
+    }
+
+}

@@ -1,0 +1,61 @@
+.team-section{
+    padding-top: 8rem;
+    width: 100%;
+}
+
+
+.team-con{
+    width: 75%;
+    margin: auto;
+}
+
+
+.team-con{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+   
+}
+
+.team-box{
+    background: #fff;
+   
+}
+
+
+.team-img{
+    background: var(--initial-bg);
+}
+
+.team-box h3{padding-top: 1rem;
+    text-align: center;
+    font-size: var(--h4-size);
+    font-weight: 600;
+
+
+}
+
+.team-box p{
+    margin-top: -1rem;
+    text-align: center;
+}
+
+
+@media screen and (max-width:1250px){
+   
+.team-con{
+    grid-template-columns: 1fr 1fr;
+
+   
+}
+}
+
+
+@media screen and (max-width:800px){
+   
+    .team-con{
+        grid-template-columns: 1fr;
+    
+       
+    }
+    }

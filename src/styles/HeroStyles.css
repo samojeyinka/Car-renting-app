@@ -1,0 +1,177 @@
+
+.home-section{
+    width: 90%;
+    margin: auto;
+    height: 97vh;
+   
+   
+}
+
+
+.hero-bg{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+
+}
+
+
+.hero-content{
+    width: 100%;
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    
+
+
+
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    max-width: 30rem;
+    z-index: 3;
+    width: 90%;
+    margin-bottom:8rem;
+
+
+}
+
+
+.hero-img{
+    z-index: 2;
+    position: absolute;
+    right: 0;
+    width: 64%;
+    margin-bottom: 9rem;
+
+}
+
+
+h4{
+    padding-bottom: .7rem;
+    font-size: var(--h4-size);
+    font-weight: 600;
+    color: var(--bg-text-color);
+    
+}
+
+
+h1{
+    font-size: var(--h1-size);
+    font-weight: 700;
+    color: var(--bg-text-color);
+    line-height: 1.25;
+    width: 100%;
+    
+}
+
+h1 span{
+    color: var(--primary-color);
+}
+
+p{
+    padding:  1.5rem 0 1.5rem 0;
+    font-size: var(--p-size);
+    font-weight: 400;
+    color: var(--small-text-color);
+}
+
+.hero-btns{
+    margin-top: 1.4rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.hero-btn{
+   
+    padding: .9rem 2.4rem;
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #fff;
+    border-radius: var(--btn-radius);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .7rem;
+
+
+
+}
+
+.book-btn{
+    background: var(--primary-color);
+    border: 2px solid var(--primary-color);
+   
+    
+}
+
+.book-btn:hover{
+    background: var(--hover-color);
+    box-shadow: var(--hover-shadow);
+    transition: .2s;
+}
+
+
+.learn-btn{
+    background: #000;
+    border: 2px solid black;
+}
+
+.learn-btn:hover{
+    background: inherit;
+    transition: .2s;
+    color: #000;
+}
+
+@media screen and (max-width:1115px){
+
+    .hero-content  p{
+        text-align: center;
+    }
+    .hero-img{
+        display: none;
+    }
+    .hero-bg{
+        display: none;
+    }
+
+    .hero-content{
+        justify-content: center;
+        
+    }
+
+    .hero-text{
+        text-align: center;
+        
+    }
+}
+
+
+@media screen and (max-width:800px){
+    .home-section{
+        width: 98%;
+        height: 85vh;
+        
+    
+    }
+
+    .hero-btns{
+        flex-direction: column;
+        align-items: center;
+        gap:1rem;
+    }
+
+    .hero-btn{
+        padding: .9rem 2rem;
+        width: 70%;
+        
+        
+    
+    }
+    
+}
