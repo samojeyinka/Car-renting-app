@@ -82,8 +82,8 @@ https://samojeyinka.vercel.app/
     #preview of the elegant web application
     
     
-    
-    ![Screenshot 2023-05-01 110640](https://user-images.githubusercontent.com/131479901/235547307-4443bb25-119a-4139-bf2c-abe9d4d75d3f.png)
+![Screenshot 2023-04-17 090050](https://user-images.githubusercontent.com/131479901/235547545-3c654612-b7e0-4d84-9f97-ab980cbca320.png)
+
 
 ![Screenshot 2023-05-01 110757](https://user-images.githubusercontent.com/131479901/235547332-51228a81-7699-4c62-b9c6-66b771c7e71e.png)
 
