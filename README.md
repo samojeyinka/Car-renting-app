@@ -1,4 +1,4 @@
-#  About thgis car-renting web application
+#  About this car-renting web application
 
 So I saw a similar car rental website on behance a week ago,so i decided to develop it and improve the design also and here is it.
 
